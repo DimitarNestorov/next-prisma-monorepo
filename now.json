@@ -1,0 +1,12 @@
+{
+	"version": 2,
+	"rewrites": [
+		{ "source": "/(.*)", "destination": "/packages/frontend/$1" }
+	],
+	"builds": [{ "src": "packages/frontend/package.json", "use": "@now/next" }],
+	"build": {
+		"env": {
+			"POSTGRES_URL": "postgresql://postgres:docker@localhost:5432/postgres?schema=public"
+		}
+	}
+}

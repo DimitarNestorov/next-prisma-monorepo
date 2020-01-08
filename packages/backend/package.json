@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "prisma2 generate"
+  },
+  "dependencies": {
+    "@prisma/photon": "^2.0.0-preview019",
+    "prisma2": "^2.0.0-preview019"
+  }
+}

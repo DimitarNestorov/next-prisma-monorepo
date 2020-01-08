@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "yarn workspace backend generate && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.7",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  }
+}
