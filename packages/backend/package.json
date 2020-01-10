@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "pwd": "node ./pwd",
+    "postinstall": "yarn run generate",
     "generate": "prisma2 generate"
   },
   "dependencies": {

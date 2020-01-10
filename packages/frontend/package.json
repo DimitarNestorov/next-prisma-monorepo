@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "yarn workspace backend generate && next build",
+    "build": "yarn workspace backend pwd #&& yarn workspace backend generate && next build",
     "start": "next start"
   },
   "dependencies": {
